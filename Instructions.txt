@@ -1,0 +1,4 @@
+-INSTRUCTIONS
+1- Le projet flutter se trouve dans le répertoire gestiondesnotes
+2- l'aperçu se trouve dans le fichier projet_semaine_6_nguetta.pdf ou projet_semaine_6_nguetta.docx
+3- les captures de la simulation dans mon smartphone se trouve dans le répertoire Captures d'écran
