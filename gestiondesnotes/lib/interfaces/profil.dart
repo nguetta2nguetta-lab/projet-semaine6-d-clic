@@ -20,7 +20,6 @@ class Profil extends StatelessWidget {
         padding: const EdgeInsets.all(30.0),
         child: Column(
           children: [
-            // Avatar
             CircleAvatar(
               radius: 40,
               backgroundColor: const Color(0xFF002060),
@@ -28,7 +27,6 @@ class Profil extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // Cartes pour chaque info
             _carteInfo('Nom d\'utilisateur', utilisateur.nomUtilisateur),
             const SizedBox(height: 12),
             _carteInfo('Email', utilisateur.email),
@@ -37,7 +35,6 @@ class Profil extends StatelessWidget {
 
             const SizedBox(height: 32),
 
-            // Bouton déconnexion
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(

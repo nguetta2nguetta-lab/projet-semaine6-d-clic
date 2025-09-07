@@ -104,7 +104,6 @@ class _ConnexionState extends State<Connexion> {
                   ),
                 ),
                 const SizedBox(height: 32),
-                // Champ Nom d'utilisateur
                 TextFormField(
                   controller: _controleurNomUtilisateur,
                   decoration: InputDecoration(
@@ -140,7 +139,6 @@ class _ConnexionState extends State<Connexion> {
                     return null;
                   },
                 ),
-                // Mot de passe oublié
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(

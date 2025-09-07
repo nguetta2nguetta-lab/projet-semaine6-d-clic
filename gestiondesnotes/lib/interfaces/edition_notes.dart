@@ -82,7 +82,6 @@ class _EditionNotesState extends State<EditionNotes> {
                     key: _formKey,
                     child: Column(
                       children: [
-                        // Champ Titre
                         Material(
                           elevation: 3,
                           borderRadius: BorderRadius.circular(12),
@@ -105,7 +104,6 @@ class _EditionNotesState extends State<EditionNotes> {
                           ),
                         ),
                         const SizedBox(height: 16),
-                        // Champ Contenu
                         Expanded(
                           child: Material(
                             elevation: 3,
@@ -134,7 +132,6 @@ class _EditionNotesState extends State<EditionNotes> {
                           ),
                         ),
                         const SizedBox(height: 16),
-                        // Boutons Annuler / Enregistrer
                         Row(
                           children: [
                             Expanded(

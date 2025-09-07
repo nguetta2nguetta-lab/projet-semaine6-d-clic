@@ -104,7 +104,6 @@ class _InscriptionState extends State<Inscription> {
                   ),
                 ),
                 const SizedBox(height: 32),
-                // Nom d'utilisateur
                 TextFormField(
                   controller: _controleurNomUtilisateur,
                   decoration: InputDecoration(
@@ -125,7 +124,6 @@ class _InscriptionState extends State<Inscription> {
                   },
                 ),
                 const SizedBox(height: 16),
-                // Email
                 TextFormField(
                   controller: _controleurEmail,
                   keyboardType: TextInputType.emailAddress,
@@ -147,7 +145,6 @@ class _InscriptionState extends State<Inscription> {
                   },
                 ),
                 const SizedBox(height: 16),
-                // Mot de passe
                 TextFormField(
                   controller: _controleurMotDePasse,
                   obscureText: true,
@@ -169,7 +166,6 @@ class _InscriptionState extends State<Inscription> {
                   },
                 ),
                 const SizedBox(height: 16),
-                // Confirmation mot de passe
                 TextFormField(
                   controller: _controleurConfirmationMotDePasse,
                   obscureText: true,
